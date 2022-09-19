@@ -1,0 +1,218 @@
+ /* Body */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* ----------------------------------------------------*/
+#title {
+  background-color: #ff4c68;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+/* Brand Name: TinDog */
+.navbar-brand {
+  font-size: 300%;
+  font-weight: 500;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* Navbar Contents */
+.navbar-collapse {
+  position: relative;
+  margin-right: 40px;
+  font-size: 125%;
+  font-weight: lighter;
+}
+
+/* Navbar Items */
+.nav-item {
+  padding: 0 18px;
+}
+
+
+/* Heading Page */
+/* Title */
+.head {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight:900;
+  color: #fff;
+}
+
+/* Download Button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Phone Image */
+.iphone {
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+}
+
+.phone {
+  position: relative;
+}
+
+/* Media Query */
+
+@media (max-width:1028px) {
+
+  #title {
+    text-align: center;
+  }
+  .iphone {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* ------------------------------------------------------------*/
+
+/* Features */
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+/* Stickers */
+.sticker {
+  color: #ef8172;
+  padding-bottom: 18px;
+}
+.sticker:hover {
+  color: #ff4c68;
+  background-color: inherit;
+}
+
+/* Features Body */
+
+.feat {
+  text-align: center;
+}
+
+.feat-h {
+  font-family: 'Montserrat-bold', sans-serif;
+  font-size: 1.5rem;
+}
+
+.feat-p {
+  color: #8f8f8f;
+}
+
+/* ------------------------------------------------------------*/
+
+/* Testimonial Section */
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+/* Image */
+
+.testimonialimage {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Carousel */
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* ----------------*/
+
+/* Press */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* ---------------------------------------------------------------------------*/
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricingcolumn {
+  padding: 5% 2%;
+}
+
+/* ---------------------------------------------------------------------------*/
+
+/* CTA */
+
+#cta {
+  background-color: #ff4c68;
+  padding: 5% 15%;
+  text-align: center;
+}
+
+.cta-heading {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3.2rem;
+  line-height: 1.5;
+  font-weight:900;
+  color: #fff;
+}
+
+/* ---------------------- */
+
+/* Footer */
+
+#footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 3% 15%;
+}
+
+/* Social Media */
+.bottom-container {
+  padding-bottom: 25px;
+  margin-left: 20px;
+}
+
+.footer-link {
+  padding: 0 30px 0 0;
+  color: black;
+}
+
+.footer-link:hover {
+  color: #ef8172;
+  background-color: inherit;
+}
+
+/* Copyright */
+.copyright {
+  color: #8f8f8f;
+}
